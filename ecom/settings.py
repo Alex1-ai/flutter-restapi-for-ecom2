@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-=gb53x!ldh$oa^q8k@6!t&^1+jg=9=@&@y9(z%z)-k)+p=(l!3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["127.0.0.1", "alexis-api.herokuapp.com"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
