@@ -148,10 +148,17 @@ MEDIA_URL = '/media/'  # or any prefix you choose
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 # CLOUDINARY SETUP
+# CLOUDINARY_STORAGE = {
+#     'CLOUD_NAME': 'alexbuy-prod',
+#     'API_KEY': '541664763762352',
+#     'API_SECRET': 'JO94GyawZ7OqaUwb0t-7DWuOJT4'
+# }
+
+# CLOUDINARY SETUP backup setup for cloudinary
 CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': 'alexbuy-prod',
-    'API_KEY': '541664763762352',
-    'API_SECRET': 'JO94GyawZ7OqaUwb0t-7DWuOJT4'
+    'CLOUD_NAME': 'alexbuy',
+    'API_KEY': '454647993756573',
+    'API_SECRET': 'noesTH3GG4WTM3P0MivsmunICBE'
 }
 
 
